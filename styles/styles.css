@@ -84,15 +84,3 @@ body {
   margin-left: 0.8rem;
   font-weight: bold;
 }
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-  color: var(--color-white);
-  margin-top: 1.5rem;
-  font-size: 14px;
-}
-.attribution a {
-  color: var(--color-gray);
-  text-decoration: none;
-}
