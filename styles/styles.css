@@ -35,17 +35,18 @@ body {
 }
 
 .info > * {
-  margin-bottom: 1.2rem;
+  line-height: 150%;
+  margin-bottom: 0.8rem;
 }
 
 .container__img {
   border-radius: 10px;
 }
-.heading-2 {
+.heading-1 {
   color: var(--color-dark-gray);
   font-size: 24px;
 }
-.heading-2:hover {
+.heading-1:hover {
   color: var(--color-yellow);
 }
 
@@ -57,14 +58,16 @@ body {
   filter: drop-shadow(16px 16px 0 black);
 }
 
-.heading-3 {
+.heading-2 {
   background-color: var(--color-yellow);
   color: var(--color-dark-gray);
-  display: inline-block;
   font-size: 14px;
   font-weight: 900;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 4px 12px;
+  text-align: center;
+  width: 5.125rem;
+  height: 29px;
 }
 .paragraph {
   color: var(--color-gray);
@@ -83,4 +86,5 @@ body {
 .user__name {
   margin-left: 0.8rem;
   font-weight: bold;
+  font-size: 14px;
 }
